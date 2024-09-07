@@ -1099,6 +1099,7 @@ const (
 	DetectorType_Netsuite                                DetectorType = 995
 	DetectorType_RobinhoodCrypto                         DetectorType = 996
 	DetectorType_NVAPI                                   DetectorType = 997
+	DetectorType_SaladCloudApiKey                        DetectorType = 998
 )
 
 // Enum value maps for DetectorType.
@@ -2098,6 +2099,7 @@ var (
 		995: "Netsuite",
 		996: "RobinhoodCrypto",
 		997: "NVAPI",
+		998: "SaladCloudApiKey",
 	}
 	DetectorType_value = map[string]int32{
 		"Alibaba":                               0,
@@ -3094,6 +3096,7 @@ var (
 		"Netsuite":                         995,
 		"RobinhoodCrypto":                  996,
 		"NVAPI":                            997,
+		"SaladCloudApiKey":                 998,
 	}
 )
 

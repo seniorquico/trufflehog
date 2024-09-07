@@ -586,6 +586,7 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/rownd"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/rubygems"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/runrunit"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/saladcloudapikey"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/salesblink"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/salescookie"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/salesflare"
@@ -1630,6 +1631,7 @@ func DefaultDetectors() []detectors.Detector {
 		netsuite.Scanner{},
 		robinhoodcrypto.Scanner{},
 		nvapi.Scanner{},
+		saladcloudapikey.Scanner{},
 	}
 }
 
